@@ -16,7 +16,7 @@ public class NoDuplo<T> {
     public void setNoProximo(NoDuplo<T> noProximo){
         this.noProximo = noProximo;
     }
-    public NoDuplo<T> getnoPrevio(){
+    public NoDuplo<T> getNoPrevio(){
         return noPrevio;
     }
     public void setNoPrevio(NoDuplo<T> noPrevio){
@@ -30,5 +30,9 @@ public class NoDuplo<T> {
         return "NoDuplo{" +
                 "conteudo= " + conteudo +
                 '}';
+    }
+    public Object getProximoNo() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getProximoNo'");
     }
 }
